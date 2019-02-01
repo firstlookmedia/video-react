@@ -17,6 +17,7 @@
     "create-minor": "sh ./scripts/release minor",
     "create-patch": "sh ./scripts/release patch",
     "publish-release": "npm test && sh ./scripts/publish",
+    "prepublishOnly": "npm run prebuild",
     "lint": "eslint src"
   },
   "repository": {
