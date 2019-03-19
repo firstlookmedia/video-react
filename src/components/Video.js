@@ -150,7 +150,7 @@ export default class Video extends Component {
   play() {
     const promise = this.video.play();
     if (promise !== undefined) {
-      promise
+      return promise
         .catch(error => {})
         .then(() => {});
     }
@@ -160,7 +160,7 @@ export default class Video extends Component {
   pause() {
     const promise = this.video.pause();
     if (promise !== undefined) {
-      promise
+      return promise
         .catch(error => {})
         .then(() => {});
     }
