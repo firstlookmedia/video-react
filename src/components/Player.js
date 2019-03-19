@@ -281,12 +281,12 @@ export default class Player extends Component {
 
   // play the video
   play() {
-    this.video.play();
+    return this.video.play();
   }
 
   // pause the video
   pause() {
-    this.video.pause();
+    return this.video.pause();
   }
 
   // Change the video source and re-load the video:

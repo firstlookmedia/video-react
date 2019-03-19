@@ -154,6 +154,7 @@ export default class Video extends Component {
         .catch(error => {})
         .then(() => {});
     }
+    return promise;
   }
 
   // pause the video
@@ -164,6 +165,7 @@ export default class Video extends Component {
         .catch(error => {})
         .then(() => {});
     }
+    return promise;
   }
 
   // Change the video source and re-load the video:
